@@ -230,7 +230,6 @@ header {
 
 .contact {
   display: none;
-  margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -949,13 +948,6 @@ header {
   height: 20px;
 }
 
-@media screen and (min-width: 1200px) {
-  .footer__block {
-    margin-left: 70px;
-    margin-right: 93px;
-  }
-}
-
 .footer__item {
   margin-bottom: 8px;
 }
@@ -1008,7 +1000,7 @@ header {
   margin-bottom: 60px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .footer__soc {
     margin-bottom: 0;
   }
@@ -1046,11 +1038,6 @@ header {
 @media screen and (min-width: 1200px) {
   .subscribe__input {
     margin-right: 12px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .subscribe__input {
     margin-bottom: 0;
   }
 }
