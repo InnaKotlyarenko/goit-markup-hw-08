@@ -1,0 +1,46 @@
+.section--no-padding-top {
+    padding-top: 0;
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.about {
+    display: flex;
+}
+
+.about__item {
+    margin-right: 30px;
+    position: relative;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.section__title--about {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+
+    @include font (700, 36px, 1.17, 0.03em);
+    color: var(--title-color);
+}
+
+.about__us {
+    @include font (700, 14px, 1.14, 0.03em);
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about__info {
+    background-color: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    left: 0;
+
+}
