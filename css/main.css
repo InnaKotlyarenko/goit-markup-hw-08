@@ -32,24 +32,6 @@ img {
   height: auto;
 }
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
-body {
-  color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
-}
-
 .site-nav--current {
   color: var(--accent-color);
 }
@@ -68,6 +50,24 @@ body {
     bottom: -1px;
     left: 0;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .container {
@@ -945,7 +945,6 @@ header {
 
 @media screen and (min-width: 1200px) {
   .footer__part {
-    flex-grow: 1;
     margin-right: 70px;
   }
 }

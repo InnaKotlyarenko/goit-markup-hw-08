@@ -1,9 +1,10 @@
 @import'./utils/variables';
 @import'./base/reset';
+@import'./utils/current';
 @import'./utils/hidden';
 @import'./base/body';
 @import'./utils/mixins';
-@import'./utils/current';
+
 
 @import'./components/container';
 @import'./components/button';
