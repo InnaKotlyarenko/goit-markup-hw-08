@@ -142,16 +142,22 @@
 }
 
 .modal__svg {
-    position: relative;
+    @media screen and (min-width: 768px) {
+        position: relative;
+    }
+    
 }
 
 .modal-svg__icon {
-    position: absolute;
-    display: inline-block;
-    top: 50%;
-    left: 12px;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 768px) {
+         position: absolute;
+         display: inline-block;
+         top: 50%;
+         left: 12px;
+         transform: translateY(-50%);
+         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .modal__link {

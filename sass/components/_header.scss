@@ -12,6 +12,9 @@ header {
 
 .contact__item {
     margin-bottom: 10px;
+    &:last-child {
+        margin-bottom: 0;
+    }
      @media screen and (min-width: 1200px) {
           margin-right: 50px;
 
@@ -40,6 +43,7 @@ header {
 .contact__link {
    
     display: flex;
+    justify-content: flex-end;
     flex-direction: row-reverse;
     @include font (500, 12px, 1.17, 0.02em);
     color: var(--primary-text-color);
@@ -73,7 +77,6 @@ header {
     display: none;
      @media screen and (min-width: 768px) {
          display: flex;
-         margin-right: 84px;
         
      }
 }
@@ -83,6 +86,7 @@ header {
     
      @media screen and (min-width: 768px) {
          display: block;
+         margin-left: auto;
      }
      @media screen and (min-width: 1200px) {
          display: flex;
@@ -92,10 +96,10 @@ header {
 
 
 .header__container {
+    position: relative;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-   
+  
 }
 
 .open-mob-menu {
@@ -173,7 +177,7 @@ header {
 }
 .menu-nav__link {
      @include font (500, 40px, 1.18, 0.02em);
-     color: var(--nav-color);
+     color: #212121;
    &:hover,
    &:focus {
        color: var(--accent-color);
