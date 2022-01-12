@@ -856,7 +856,7 @@ header {
 }
 
 .clients {
-  margin-left: -30px;
+  margin-right: -30px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -882,8 +882,8 @@ header {
 .clients__list {
   width: calc(100% / 2 - 30px);
   height: 92px;
-  margin-left: 30px;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .clients__list:nth-last-child(-n + 2) {
@@ -901,7 +901,6 @@ header {
 
 @media screen and (min-width: 1200px) {
   .clients__list {
-    margin-right: 30px;
     margin-bottom: 0;
   }
 }
